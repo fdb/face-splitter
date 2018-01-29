@@ -2,6 +2,8 @@
 
 Python 3 script to detect faces in OpenCV and split them into three parts.
 
+![Face Splitter Screenshot](https://raw.githubusercontent.com/fdb/face-splitter/master/.github/screenshot.jpg)
+
 To install:
 
     brew install python3 opencv
