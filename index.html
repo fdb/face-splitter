@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Face Splitter</title>
+    <style>
+        body { font: 14px sans-serif; background: #333; color: #888; text-align: center; }
+        h1 { font-size: 14px; }
+        .instructions { font-size: 11px; }
+        #face-wrap { width: 500px; margin: 10px auto; display: flex;flex-direction: column; box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
+        .credit { font-size: 11px; margin-top: 10px; }
+        img { max-width: 100%; }
+        a { color: inherit; }
+    </style>
+</head>
+<body>
+<h1>Face Splitter</h1>
+<p class="instructions">Click the image to refresh.</p>
+<div id="face-wrap"></div>
+<p class="credit">All images &copy; <a href="https://www.flickr.com/photos/gregpc/">Greg Peverill-Conti</a>.</p>
+<p class="credit">Software &copy; Frederik De Bleser. <a href="https://github.com/fdb/face-splitter">GitHub</a></p>
+
+<script src="face.js"></script>
+<script>
+make_face();
+</script>
+
+</body>
+</html>
